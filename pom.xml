@@ -156,6 +156,17 @@
 
 
 		</dependencies>
+	<distributionManagement>
+		 <snapshotRepository>
+		    <id>nexusRepo</id>
+		    <url>http://3.110.51.47:8081/repository/sample-snapshots/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexusRepo</id>
+		    <url>http://65.2.33.81:8081/repository/sample-release/</url>
+		</repository>
+  	</distributionManagement>
 
     <build>
         <plugins>
